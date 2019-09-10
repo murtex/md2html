@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width" initial-scale="1">
+
+		<title>{{title}}</title>
+
+		<link rel="stylesheet" type="text/css" href="github.css">
+		<style>
+			.markdown-body {
+				box-sizing: border-box;
+				min-width: 200px;
+				max-width: 980px;
+				margin: 0 auto;
+				padding: 45px;
+			}
+
+			@media (max-width: 767px) {
+				.markdown-body {
+					padding: 15px;
+				}
+			}
+		</style>
+
+		<script type="text/x-mathjax-config">MathJax.Hub.Config({ "fast-preview": { disabled: true } });</script>
+		<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS_CHTML"></script>
+	</head>
+
+	<body>
+		<article class="markdown-body">
+			{{main}}
+		</article>
+	</body>
+</html>
+

@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'md2html'
+
+Md2html.convert
+
